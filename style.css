@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "GenWanMin JP";
+    src: url(fonts/GenWanMinJP-M.woff2) format(turetype);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "GenWanMin JP";
+    src: url(fonts/GenWanMinJP-R.woff2) format(turetype);
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background: #888554; */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+}
+
+
+
+/* 主頁 */
+
+.home_p{
+    /* border: 1px red solid; */
+    width: 100%;
+    height: 719px;
+    background-image: url(img/home_bg.png);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 1180px; 
+    height: 100px;
+}
+
+
+.head_title{
+    width: 109px;
+    height: 41px;
+}
+
+.list{
+    display:flex;
+    list-style: none;
+    
+}
+
+.list_item{
+    /* border: 1px red solid; */
+    margin: 25px;
+
+    font-size: 16px;
+    font-family: "GenWanMin JP";
+    font-weight: normal;
+    color: aliceblue;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    
+    /* border: 1px red solid; */
+    width: 100%;
+    height: 615px;    
+}
+
+.title{
+    display: flex;
+    /* border: 1px red solid; */
+    margin: 0px 0px 190px 0px;
+    
+    
+
+    font-family: "GenWanMin JP";
+    font-weight: bold;
+    font-size: 42.72px;
+    writing-mode: vertical-lr;
+    letter-spacing: 8px;
+    color: aliceblue;
+    
+}
+
+.poetry{
+    display: flex;
+    /* border: 1px red solid; */
+    margin: 0px 240px 0px 150px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 500px;
+}
+
+.icon_item{
+    /* border: 1px red solid; */
+    margin: 18px 0px;
+}
+
+
+/* 特徵 */
+
+
+.feature_part{
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 477px;
+    margin: 0 auto;
+
+    background-image: url(img/feature_bg.png);
+}
+
+h1.feature {
+    text-align:center;
+    line-height: 100px;
+
+    color: aliceblue;
+    font-family: "GenWanMin JP";
+    font-size: 42.72px;
+    font-weight: bold;
+}
+
+p.feature{
+    text-align:center;
+    line-height: 50px;
+
+    color: aliceblue;
+    font-family: "GenWanMin JP";
+    font-size: 20px;
+    font-weight: normal;
+ }
+
+
+
+
+ /* 生長環境 */
+
+.environment_part{
+    /* border: 1px rgb(47, 255, 148) solid; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1470px;
+}
+
+.E1{
+    display: flex;
+    align-items:unset;
+    flex-direction: row-reverse;
+    margin:5% 0%;
+    width: 100%;
+}
+
+h1.e1{
+    margin: 0% 10%;
+    writing-mode: vertical-lr;
+
+    font-size: 42.72px;
+    font-family: "GenWanMin JP";
+    font-weight: bold; 
+    letter-spacing: 8px;
+}
+
+.E2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: unset;
+    width: 100%;
+}
+
+.imge2{
+    display: flex;
+    justify-content: center;
+    width: 390px;
+}
+
+p.e2{
+    width: 440px;
+    line-height: 30px;
+
+    font-size: 16px;
+    font-family: "GenWanMin JP";
+    font-weight: normal; 
+}
+
+
+.E3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+p.e3{
+    width: 380px;
+    margin-left: 10%;
+
+    line-height: 30px;
+    font-size: 16px;
+    font-family: "GenWanMin JP";
+    font-weight: normal;
+}
+
+
+.E4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0;
+    width: 100%;
+}
+
+p.e4{
+    height: 160px;
+    width: 380px;
+    margin-right:8%;
+
+    line-height: 30px;
+    font-size: 16px;
+    font-family: "GenWanMin JP";
+    font-weight: normal;
+}
+
+
+
+
+/* 商店 */
+
+.shop_part{
+    /* border: 1px rgb(0, 81, 186) solid; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 633px;
+    margin: auto;
+}
+
+h1.shop{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    height: 50px;
+
+    font-family: "GenWanMin JP";
+    font-size: 42.72px;
+    color: black;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 530px;
+}
+
+.arrow{
+   display: flex;
+   margin: 0px 30px 50px;
+}
+
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 380px;
+}
+
+
+.content{
+    /* border: 1px rgb(0, 81, 186) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 265px;
+    height: 60px;
+    background-color: #888554;
+    border-radius: 6px;
+
+    font-family: "GenWanMin JP";
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+
+
+footer{
+    /* border: brown solid 1px; */
+    display: flex;
+    width: 100%;
+    height: 173px;
+    
+    background-image: url(img/footer_bg.png);
+}
+
+.rightcopy{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
